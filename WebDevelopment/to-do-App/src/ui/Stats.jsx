@@ -3,7 +3,7 @@ export default function Stats({ list }) {
   if (!list.length) {
     return (
       <p className={className}>
-        <em>Start adding some items to your packing list</em>
+        <em>Start adding some To-DO items to your list </em>
       </p>
     );
   }
